@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Compagnon-Medium';
+  src: url('Compagnon-Medium.woff2') format('woff2'),
+       url('Compagnon-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Compagnon-Roman';
+  src: url('Compagnon-Roman.woff2') format('woff2'),
+       url('Compagnon-Roman.woff') format('woff');
+}
