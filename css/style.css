@@ -31,6 +31,11 @@ body {
   padding: 1rem;
 }
 
+.support a {
+  color: white;
+  text-decoration: none;
+}
+
 .grille {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
