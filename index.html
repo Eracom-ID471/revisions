@@ -9,6 +9,7 @@
 
   <link rel="stylesheet" href="fontes/compagnon-web/compagnon.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/card.css">
 
 </head>
 
@@ -18,24 +19,30 @@
     <p class="intro">Supports de révision médias interactifs.<br>
       Classes ID381 et ID471.</p>
   </header>
-  <main class="grille">
-    <article class="support">
-      <h2><a href="page-exemple.html">titre du support</a></h2>
-      <p>par... </p>
-    </article>
-    <article class="support">
-      <h2>titre du support</h2>
-      <p>par... </p>
-    </article>
-    <article class="support">
-      <h2>titre du support</h2>
-      <p>par... </p>
-    </article>
-    <article class="support">
-      <h2>titre du support</h2>
-      <p>par... </p>
-    </article>
-  </main>
+  <ul class="card-list">
+    <li class="card">
+      <div class="img"><img src="img/trollface.png" alt=""></div>
+      <div class="text">
+        <h2> <a href="termes-semiologie.html">Les termes de la sémiologie</a></h2>
+        <p>Par Jonas B.</p>
+      </div>
+    </li>
+    <li class="card support">
+      <div class="img"><img src="img/trollface.png" alt=""></div>
+      <div class="text">
+        <h2> <a href="checklist-dossier.html">Checklist du dossier TPI</a></h2>
+        <p>Par Benjamin E.</p>
+      </div>
+    </li>
+    <li class="card support">
+      <div class="img"><img src="img/trollface.png" alt=""></div>
+      <div class="text">
+        <h2> <a href="termes-semiologie.html">Checklist de la présentation TPI</a></h2>
+        <p>Par Théo G.</p>
+      </div>
+    </li>
+  </ul>
+  <script src="script.js"></script>
 </body>
 
 </html>

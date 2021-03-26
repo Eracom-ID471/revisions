@@ -1,3 +1,16 @@
+/*
+ Webfont: Compagnon
+ Source: https://velvetyne.fr/fonts/compagnon/
+ Licence: SIL Open Font License, Version 1.1
+ Auteurs: 
+ Chloé Lozano
+ Juliette Duhé
+ Léa Pradine
+ Sébastien Riollier
+ Valentin Papon
+*
+*/
+
 @font-face {
   font-family: 'Compagnon-Medium';
   src: url('Compagnon-Medium.woff2') format('woff2'),
